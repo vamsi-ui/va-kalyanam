@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&display=swap');
+
+@theme {
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-sans: 'Outfit', 'Montserrat', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --color-royal-crimson: #7B0016;
+  --color-royal-gold: #D4AF37;
+  --color-royal-gold-light: #FDE047;
+  --color-wedding-red: #7B0016;
+  --color-wedding-crimson: #52000E;
+  --color-wedding-gold: #D4AF37;
+  --color-wedding-gold-light: #FDE047;
+  --color-wedding-cream: #FAF6ED;
+  --color-wedding-sage: #5F7161;
+}
+
+body {
+  background-color: #2a0609;
+  color: #fef3c7;
+  font-family: var(--font-sans);
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Gold foil gradient effect */
+.bg-gold-foil {
+  background: linear-gradient(135deg, #fef08a 0%, #d4af37 40%, #b45309 70%, #fde047 100%);
+}
+
+.text-gold-foil {
+  background: linear-gradient(135deg, #fef08a 0%, #facc15 50%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

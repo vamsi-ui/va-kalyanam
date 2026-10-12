@@ -1,0 +1,8 @@
+{
+  "name": "Remix Vivaha Run - Vishnu \u0026 Akshitha\u0027s Wedding Rush",
+  "description": "Choose between Vishnu (Groom) and Akshitha (Bride) and sprint towards your partner through vibrant Indian wedding celebrations, dodging aunties, musicians, and obstacles!",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
